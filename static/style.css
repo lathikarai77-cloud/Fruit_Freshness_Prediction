@@ -1,0 +1,121 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f7f2;
+    color: #26352a;
+}
+
+header {
+    background: #23834b;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+.container {
+    max-width: 650px;
+    margin: 40px auto;
+    padding: 15px;
+}
+
+.upload-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.upload-card h2 {
+    margin-bottom: 15px;
+}
+
+.upload-card p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+input[type="file"] {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: 1px dashed #23834b;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+button {
+    background: #23834b;
+    color: white;
+    border: none;
+    padding: 13px 25px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #176637;
+}
+
+.preview {
+    margin-top: 25px;
+}
+
+.preview img {
+    width: 220px;
+    max-width: 100%;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.result {
+    margin-top: 25px;
+    padding: 20px;
+    background: #edf8ef;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.result h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.result p {
+    margin: 12px 0;
+}
+
+.fresh {
+    color: #16813e;
+    font-weight: bold;
+}
+
+.rotten {
+    color: #d12d2d;
+    font-weight: bold;
+}
+
+.error {
+    margin-top: 20px;
+    color: #c62828;
+    background: #ffebee;
+    padding: 12px;
+    border-radius: 7px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #657268;
+}
